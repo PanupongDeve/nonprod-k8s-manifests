@@ -1,0 +1,1 @@
+kubectl port-forward svc/cart -n cart-dev 8085:8080
