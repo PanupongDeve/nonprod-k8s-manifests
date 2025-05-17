@@ -13,7 +13,7 @@ spec:
         app: cart
     spec:
       containers:
-      - image: nginx
+      - image: my-cart:v1
         name: cart
         ports:
-        - containerPort: 80
+        - containerPort: 9000
