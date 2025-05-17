@@ -14,7 +14,7 @@ spec:
         app: cart
     spec:
       containers:
-        - image: 164b51b
+        - image: panupongdeve/gitops-my-cart:164b51b
           name: cart
           ports:
             - containerPort: 9000
