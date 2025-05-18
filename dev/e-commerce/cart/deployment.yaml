@@ -14,10 +14,10 @@ spec:
         app: cart
     spec:
       containers:
-        - image: panupongdeve/gitops-my-cart:4b99591
+        - image: panupongdeve/gitops-my-cart:493c2de
           name: cart
           ports:
             - containerPort: 9000
           envFrom:
-          - configMapRef:
-              name: cart
+            - configMapRef:
+                name: cart
