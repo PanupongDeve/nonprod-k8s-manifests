@@ -6,3 +6,7 @@ configMapGenerator:
   namespace: cart-dev
   envs: 
   - ./cart/cart.env
+
+# Generator Option
+generatorOptions:
+  disableNameSuffixHash: true
